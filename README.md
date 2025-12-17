@@ -9,7 +9,7 @@ Predicting financial markets is notoriously difficult due to volatility and nois
 
 **GoldDigga AI** is a **Time-Series Forecasting System** that predicts the daily price of Gold (GLD). Unlike simple regression, this system utilizes **Lag Features (t-1)** to model the sequential dependency of asset prices. By analyzing correlations with **Silver (SLV)**, **Crude Oil (USO)**, the **S&P 500 (SPX)**, and **EUR/USD** exchange rates, the model achieves an **R² Score of ~92%** on unseen future data.
 
-> **[🔴 Live Dashboard Demo](https://your-app-link-here.streamlit.app/)**
+> **[🔴 Live Dashboard Demo](https://golddigga-financial-ai-2a7qk2pmh7qjbpntccvsl4.streamlit.app/)**
 
 ## 🛠️ Technical Architecture
 This project solves the "Look-Ahead Bias" common in beginner financial models by implementing a strict Time-Series Split.
