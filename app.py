@@ -60,10 +60,10 @@ st.markdown("""
 def load_data_and_model():
     try:
         # Load Model
-        model = joblib.load('gold_price_model.pkl')
+        model = joblib.load('models/gold_price_model.pkl')
 
         # Load Data (Only to get min/max values for sliders)
-        df = pd.read_csv('gold_price_data.csv')
+        df = pd.read_csv('data/gold_price_data.csv')
 
         return model, df
     except Exception as e:
